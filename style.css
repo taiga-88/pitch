@@ -1,0 +1,43 @@
+body {
+    background-color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header {
+    margin: auto;
+    width: 50%;
+    padding-left: 230px;
+    color: black;
+    
+}
+
+.april10 {
+    margin: auto;
+    margin-top: 90px;
+    width: 50%;
+    padding-left: 20px;
+    padding-top: 0.7px;
+    padding-bottom: 0.7px;
+    padding-right: 0px;
+    background-color: black;
+    color: bisque;
+    box-shadow: 0px 5px 5px 5px black;
+    
+}
+
+.shadowing {
+    color: bisque;
+    text-decoration: none;
+}
+.shadowing:hover {
+
+    text-decoration: underline;
+    text-decoration-color: bisque;
+}
+
+.header::after {
+    content: "";
+    display: block;
+    width: 56.7%;
+    height: 5px;
+    background: black;
+}
